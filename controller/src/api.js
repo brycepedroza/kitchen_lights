@@ -5,7 +5,7 @@ if (process.env.NODE_ENV === "development") {
   baseURL=""
 }
 else if (process.env.NODE_ENV === "production"){
-  baseURL="192.168.0.90"
+  baseURL="http://192.168.0.90"
 }
 
 console.log(baseURL)
